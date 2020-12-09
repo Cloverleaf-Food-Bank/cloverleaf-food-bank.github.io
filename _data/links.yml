@@ -1,0 +1,80 @@
+participants:
+  - name: Triumph of the Holy Cross Parish
+    link: https://www.techscatholic.com
+    address: 1 Grove Pl, Pittsburgh, PA 15236 (St. Elizabeth of Hungary Site)
+    phone: (412) 882-8744
+    description: Includes St. Elizabeth of Hungary Church in Pleasant Hills, St. Thomas a Becket Church in Jefferson Hills, and Holy Spirit Church in West Mifflin.
+
+  - name: Pleasant Hills Community Presbyterian Church
+    link: http://www.pleasanthillschurch.com
+    address: 199 Old Clairton Rd, Pittsburgh, PA 15236
+    phone: (412) 655-2000
+    description:
+
+  - name: Jefferson United Presbyterian Church
+    link: http://www.jeffersonupc.com/
+    address: 716 Gill Hall Rd, Jefferson Hills, PA 15025
+    phone: (412) 653-4797
+    description:
+
+  - name: Jefferson United Methodist Church
+    link: https://www.jumcwpa.org/
+    address: 310 Gill Hall Rd, Clairton, PA 15025
+    phone: (412) 653-3222
+    description:
+
+  - name: Good Shepherd Lutheran Church
+    link: https://goodshepherdpittsburgh.org/
+    address: 418 Maxwell Dr, Pittsburgh, PA 15236
+    phone: (412) 884-3232
+    description:
+
+  - name: Nativity Catholic Church
+    link: http://www.nativitysouthpark.org/
+    address: 5811 Curry Rd, Pittsburgh, PA 15236
+    phone: (412) 655-3000
+    description:
+
+non-profits:
+  - name: Greater Pittsburgh Community Food Bank
+    link: https://www.pittsburghfoodbank.org
+    address: 1 N. Linden St, Duquesne, PA 15110
+    phone: (412) 460-3663
+    description:
+
+  - name: South Hills Interfaith Movement
+    link: https://www.shimcares.org
+    address: 5301 Park Ave, Bethel Park, PA 15102
+    phone: (412) 854-9120
+    description:
+
+  - name: 412 Food Rescue
+    link: https://www.412foodrescue.org
+    address: 6140 Station St, Pittsburgh, PA 15206
+    phone: (412) 277-3831
+    description:
+
+govt-agencies:
+  - name: PA Department of Human Services - Supplemental Nutrition
+    link: https://www.dhs.pa.gov/Services/Assistance/Pages/SNAP.aspx
+    address:
+    phone:
+    description: This link is specifically for SNAP (Supplemental Nutrition Assistance Program)
+
+  - name: PA Department of Human Services - Housing
+    link: https://www.dhs.pa.gov/Services/Assistance/Pages/Housing-Resources.aspx
+    address:
+    phone:
+    description: This link is specifically for housing services and Resources
+
+  - name: PA Department of Human Services - Cash Assistance
+    link: https://www.dhs.pa.gov/Services/Assistance/Pages/Cash-Assistance.aspx
+    address:
+    phone:
+    description: This link is specifically for the DHS Cash Assistance Program (TANF)
+
+  - name: Women, Infants, & Children (WIC)
+    link: https://www.wicprograms.org/co/pa-allegheny
+    address:
+    phone:
+    description: WIC provides nutrition assistance specifically for women, infants, and children.

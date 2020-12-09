@@ -1,0 +1,27 @@
+---
+title: home
+layout: default
+permalink: /
+redirect-from:
+  - home
+---
+
+<div id="content-container" style="display:flex; justify-content: center; flex-direction: row;
+background-image: linear-gradient(to bottom right, #bfbfbf, white)"> <!--background to be washed-out photo-->
+  <div style="width: 75%; margin: 30px 10%; padding: 30px; background-color: white">
+    <h3 style="color: #1e7b1e">News</h3>
+    <ul>
+      {% for headline in site.data.headlines %}
+      <li style="margin-top: 10px; margin-bottom: 10px">{{ headline }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div style="width: 25%; position: -webkit-sticky; position: sticky; padding: 30px; background-color: white">
+    <h3 style="color: #1e7b1e">Items Urgently Needed</h3>
+    <ul>
+      {% for item in site.data.itemsNeeded %}
+      <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,70 @@
+---
+title: links
+layout: default
+permalink: links
+---
+
+<div id="content-container" class="d-flex justify-content-center align-items-center flex-column" style="background-image: linear-gradient(to bottom right, #bfbfbf, white)"> <!--background to be washed-out photo-->
+  <div style="width:100%; padding: 30px; background-color: white">
+    <h2 style="color: #1e7b1e">Partners & Links</h2>
+    <p>CAEAP cannot accomplish its mission without the generous support of its
+      participating congregations, along with partnerships with other assistance programs,
+      non-profit organizations, and businesses who are committed to working to end food
+      insecurity in our region.
+      </p>
+    <p>We invite you to learn more about these vibrant organizations and
+      faith communities that help us thrive by visiting their web sites through the
+      links provided below.
+  </div>
+
+  <div style="width: 75%; margin: 30px 10%; padding: 30px; background-color: white">
+    <h3 style="color: #1e7b1e">Our Participating Congregations</h3>
+    {% for org in site.data.links.participants %}
+      <hr style="margin-top:10px; margin-bottom: 10px"/>
+      <a href="{{ org.link }}"><strong>{{ org.name }}</strong></a>
+      {% if org.description.size > 0 %}
+        <div>{{ org.description }}</div>
+      {% endif %}
+      {% if org.address.size > 0 %}
+        <div>Address - {{ org.address }}</div>
+      {% endif %}
+      {% if org.phone.size > 0 %}
+        <div>Phone - {{ org.phone }}</div>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <div style="width: 75%; margin: 30px 10%; padding: 30px; background-color: white">
+    <h3 style="color: #1e7b1e">Local Non-Profit Organizations</h3>
+    {% for org in site.data.links.non-profits %}
+      <hr style="margin-top:10px; margin-bottom: 10px"/>
+      <a href="{{ org.link }}"><strong>{{ org.name }}</strong></a>
+      {% if org.description.size > 0 %}
+        <div>{{ org.description }}</div>
+      {% endif %}
+      {% if org.address.size > 0 %}
+        <div>Address - {{ org.address }}</div>
+      {% endif %}
+      {% if org.phone.size > 0 %}
+        <div>Phone - {{ org.phone }}</div>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <div style="width: 75%; margin: 30px 10%; padding: 30px; background-color: white">
+    <h3 style="color: #1e7b1e">Related Government Agencies</h3>
+    {% for org in site.data.links.govt-agencies %}
+      <hr style="margin-top:10px; margin-bottom: 10px"/>
+      <a href="{{ org.link }}"><strong>{{ org.name }}</strong></a>
+      {% if agency.description.size > 0 %}
+        <div>{{ org.description }}</div>
+      {% endif %}
+      {% if org.address.size > 0 %}
+        <div>Address - {{ org.address }}</div>
+      {% endif %}
+      {% if org.phone.size > 0 %}
+        <div>Phone - {{ org.phone }}</div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
