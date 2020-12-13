@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   A website containing news and information about the Cloverleaf Area Ecumenical
   Assistance Program, more commonly known as simply the Cloverleaf Food Bank, located
   to the south of Pittsburgh in Pleasant Hills, PA.
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "/news" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: caeap1983
 github_username:  caeap1983
