@@ -1,14 +1,15 @@
 ---
 title: home
 layout: default
-permalink: /
+permalink: news
 redirect-from:
+  - news
   - home
 ---
 
 <div id="content-container" style="display:flex; justify-content: center; flex-direction: row;
 background-image: linear-gradient(to bottom right, #bfbfbf, white)"> <!--background to be washed-out photo-->
-  <div style="width: 75%; margin: 30px 10%; padding: 30px; background-color: white">
+  <div class="col-md-9" style="margin: 30px 10%; padding: 30px; background-color: white">
     <h3 style="color: #1e7b1e">News</h3>
     <ul>
       {% for headline in site.data.headlines %}
@@ -16,7 +17,7 @@ background-image: linear-gradient(to bottom right, #bfbfbf, white)"> <!--backgro
       {% endfor %}
     </ul>
   </div>
-  <div style="width: 25%; position: -webkit-sticky; position: sticky; padding: 30px; background-color: white">
+  <div class="col-md-3" style="padding: 30px; background-color: white">
     <h3 style="color: #1e7b1e">Items Urgently Needed</h3>
     <ul>
       {% for item in site.data.itemsNeeded %}
