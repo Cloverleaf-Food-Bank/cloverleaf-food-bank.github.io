@@ -1,12 +1,15 @@
 ---
 title: News
 layout: default
-permalink: news
+permalink: /
+redirect-from:
+  - news
+  - home
+  - index.html
 ---
 
-<div id="content-container" style="display:flex; justify-content: center; flex-direction: row;
-background-image: linear-gradient(to bottom right, #bfbfbf, white)"> <!--background to be washed-out photo-->
-  <div class="col-md-9" style="margin: 30px 10%; padding: 30px; background-color: white">
+<div id="content-container" class="d-flex flex-row justify-content-center" style="background-image: linear-gradient(to bottom right, #bfbfbf, white)"> <!--background to be washed-out photo-->
+  <div class="col-lg-9" style="margin: 30px 10%; padding: 30px; background-color: white">
     <h3 style="color: #1e7b1e">News</h3>
     <ul>
       {% for headline in site.data.headlines %}
@@ -14,7 +17,7 @@ background-image: linear-gradient(to bottom right, #bfbfbf, white)"> <!--backgro
       {% endfor %}
     </ul>
   </div>
-  <div class="col-md-3" style="padding: 30px; background-color: white">
+  <div class="col-lg-3" style="padding: 30px; background-color: white">
     <h3 style="color: #1e7b1e">Items Urgently Needed</h3>
     <ul>
       {% for item in site.data.itemsNeeded %}
