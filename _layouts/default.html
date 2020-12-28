@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <title>Cloverleaf Food Bank Home Page</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,21 +9,22 @@
 <div id="pageContent" style="font-family: Georgia, Times, 'Times New Roman', serif">
 
   <!--<div style="display:flex; height:160px; padding-left: 2%">-->
-  <div class="d-flex" style="height:160px; padding-left: 2%">
-  <!--<div style="display:flex; height:160px; padding-left: 2%; background-image: linear-gradient(to bottom, #fdff80, #ffffe0)">-->
-    <div id="logo" class="d-flex justify-content-center align-items-center" style="height:100%; width:15%">
-      <img src="caeap-logo-sm.jpg" alt="CAEAP Logo" style="width:90%; height:90%; object-fit:contain"/>
+  <div class="row container-fluid" style="padding-left: 2%">
+    <div id="banner" class="col-md-10 container-fluid justify-content-center align-items-center">
+      <div style="padding-top: 2%">
+        <h1 style="color: #1e7b1e; text-align: center">
+          Cloverleaf Area Ecumenical Assistance Program
+        </h1>
+        <h4 style="font-style: italic; text-align: center">Serving our local communities since 1983</h4>
+      </div>
     </div>
-    <div id="banner" class="d-flex flex-column justify-content-center align-items-center">
-      <h1 style="color: #1e7b1e; padding-left: 100px">
-        Cloverleaf Area Ecumenical Assistance Program
-      </h1>
-      <h4 style="font-style: italic">Serving our local communities since 1983</h4>
+    <div id="logo" class="d-flex order-sm-first col-md-2 justify-content-center align-items-center" style="height:100%; margin:0px">
+      <img src="caeap-logo-sm.jpg" alt="CAEAP Logo" style="width:150px; height:150px; object-fit:contain"/>
     </div>
   </div>
 
   <div class="btn-group d-flex" role="group" style="width: 100%; background-color: #1e7b1e">
-    <a href="news" class="btn" style="color: white">News</a>
+    <a href="/" class="btn" style="color: white">News</a>
     <a href="gethelp" class="btn" style="color: white">Get Help</a>
     <a href="givehelp" class="btn" style="color: white">Give Help</a>
     <a href="links" class="btn" style="color: white">Partners & Links</a>
@@ -39,7 +40,7 @@
     </div>-->
   </div>
   <section> {{ content }} </section>
-  <div id="footer" style="background-color: #bfbfbf">
+  <footer id="footer" class="footer" style="width: 100%; background-color: #bfbfbf; position: relative; clear: both; padding: 15px; text-align: center">
     Copyright 2020, Cloverleaf Area Ecumenical Assistance Program. All rights reserved
   </div>
 </div>

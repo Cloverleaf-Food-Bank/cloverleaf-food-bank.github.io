@@ -8,20 +8,32 @@ redirect-from:
   - index.html
 ---
 
-<div id="content-container" class="d-flex flex-row justify-content-center" style="background-image: linear-gradient(to bottom right, #bfbfbf, white)"> <!--background to be washed-out photo-->
-  <div class="col-lg-9" style="margin: 30px 10%; padding: 30px; background-color: white">
+<!--maybe for bottom half: style="background-image: linear-gradient(to bottom right, #bfbfbf, white)"-->
+
+<div id="quote-container" class="d-flex justify-content-center align-items-center" style="width: 100%; height: 100%; background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('sharing-bread-crpd1.jpg'); background-repeat: no-repeat; background-position: center center; background-size: cover">
+  <div id="matthew-quote" style="color: white; font-size: 150%; background-color: transparent; text-align: center; margin: 5% 20% 5% 20%;">
+     “Lord, when did we see you hungry and feed you, or thirsty and give you something to drink?" ... "Truly I tell you,
+      whatever you did for the least of these brothers and sisters of mine, you did for me." - Matthew 25:37,40 NIV
+  </div>
+</div>
+<div id="content-container" class="row container-fluid">
+  <div class="col-md-3" style="padding: 30px; background-color: white">
+    <div class="rounded" style="background-color: #bfbfbf; padding: 15px">
+      <div style="padding: 15px">
+        <h3 style="color: #1e7b1e">Items Urgently Needed</h3>
+        <ul>
+          {% for item in site.data.itemsNeeded %}
+          <li><strong>{{ item }}</strong></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="order-sm-first col-md-9" style="padding: 30px; background-color: white">
     <h3 style="color: #1e7b1e">News</h3>
     <ul>
       {% for headline in site.data.headlines %}
       <li style="margin-top: 10px; margin-bottom: 10px">{{ headline }}</li>
-      {% endfor %}
-    </ul>
-  </div>
-  <div class="col-lg-3" style="padding: 30px; background-color: white">
-    <h3 style="color: #1e7b1e">Items Urgently Needed</h3>
-    <ul>
-      {% for item in site.data.itemsNeeded %}
-      <li>{{ item }}</li>
       {% endfor %}
     </ul>
   </div>
