@@ -5,8 +5,6 @@
 #- >-
 #  This is a headline which is very long and may need to be carried over onto a
 #  a second or third line in this file, but in any case all lines of text should be
-#  indented two spaces from the delimiter "- >-" to be recognized as a value.
+#  indented two spaces from the delimiter "- >-" to 
 
-- >-
-  In light of local COVID-19 developments, food distribution and truck delivery have been CANCELLED for Tuesday,
-  January 5, 2021. There will be a produce truck delivery on Tuesday, January 12, and the next food distribution date will be Tuesday, January 19.
+
