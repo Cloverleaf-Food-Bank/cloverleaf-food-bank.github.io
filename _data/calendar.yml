@@ -1,3 +1,29 @@
+# The format of this calendar file is as follows:
+#
+# 1) Each calendar item is a list item object (prepended with "- ") consisting of exactly two attributes which the templating engine looks for: "date" and "events"
+#
+# 2) The value for the "date" attribute is a date formatted as full month name + day number, e.g. "January 12". No year is necessary as the calendar element on the 
+#    page itself will be updated each year. The date element is required for a calendar item.
+#
+# 3) The value for the "events" attribute is a list of elements (again prepended with "- " representing events, e.g. "- Food distribution". It should be indented
+#.   at the same level as "date" (see example under direction #5). While items in the events aren't technically necessary, there should be at least one 
+#.   in order to justify putting the date in the calendar in the first place. If there is only one item for a date on the calendar and it needs to be removed, 
+#.   the entire date should be removed to avoid having empty dates taking up space on the calendar. In order for the file to be processed properly, 
+#.   list items should be indented two spaces from the "events:" key item.
+#
+# 4) The dates are ordered on the page in the same order they are presented here, so if you're adding a date item later than any of the other item it should be
+#    added at the bottom of the list, and anything in between other dates should be inserted in between the two closest dates on either side. To add an item to a 
+#   a date that already exists on the list, simply add another list item to the "events" list.
+#
+# 5) Below is an example of a well-formatted calendar item per YAML specs:
+#
+# - date: January 19
+#   events:
+#     - Food distribution
+#     - Regular truck delivery
+#
+# Please put items below this line:
+
 - date: January 12
   events:
     - Regular truck delivery
