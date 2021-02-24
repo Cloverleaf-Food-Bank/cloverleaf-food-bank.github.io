@@ -5,7 +5,5 @@
 #- >-
 #  This is a headline which is very long and may need to be carried over onto a
 #  a second or third line in this file, but in any case all lines of text should be
-#  indented two spaces from the delimiter "- >-" to 
-
-- >-
-  Due to inclement weather, we will not be distributing food on Tuesday, February 16. We are rescheduling this food distribution for Tuesday, February 23.
+#  indented two spaces from the delimiter "- >-" to display properly. Also, you'll
+#  want to remove the #'s for actual headlines - they prevent this example from being parsed.
