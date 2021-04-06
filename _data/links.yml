@@ -53,6 +53,18 @@ non-profits:
     address: 6140 Station St, Pittsburgh, PA 15206
     phone: (412) 277-3831
     description:
+    
+  - name: Western Pennsylvania Diaper Bank
+    link: https://www.wpadiaperbank.org/
+    address: 201 N. Braddock Ave. Suite 124
+    phone: 
+    description:
+    
+  - name: Chow Wagon
+    link: https://www.thinkingoutsidethecage.org/pet-resources/pet-food-bank/ 
+    address: 562 Camp Horne Road
+    phone: 412-847-7000
+    description:
 
 govt-agencies:
   - name: PA Department of Human Services - Supplemental Nutrition
