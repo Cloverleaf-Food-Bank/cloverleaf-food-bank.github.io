@@ -90,3 +90,9 @@ govt-agencies:
     address:
     phone:
     description: WIC provides nutrition assistance specifically for women, infants, and children.
+    
+  - name: Women, Child Care Assistance Program
+    link: https://papromiseforchildren.com/get-a-little-help/child-care-works/
+    address:
+    phone:
+    description: It can be a significant challenge for families to afford reliable, quality child care. Child care subsidy makes it possible for low-income families to find reliable, quality child care near their home or work and provides financial assistance to help families afford it.
