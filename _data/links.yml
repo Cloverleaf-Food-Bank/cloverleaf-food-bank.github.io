@@ -97,13 +97,11 @@ govt-agencies:
     phone:
     description: It can be a significant challenge for families to afford reliable, quality child care. Child care subsidy makes it possible for low-income families to find reliable, quality child care near their home or work and provides financial assistance to help families afford it.
     
-    
   - name: Child Health Insurance Program (CHIP)
     link: https://www.healthcare.gov/medicaid-chip/childrens-health-insurance-program/
     address:
     phone:
     description: CHIP provides low-cost health coverage to children in families that earn too much money to qualify for Medicaid.
-    
     
   - name: Dollar Energy FUnd
     link: https://www.dollarenergy.org/
@@ -128,7 +126,6 @@ govt-agencies:
     address:
     phone:
     description: Medicaid is a joint federal and state program that helps with medical costs for some people with limited income and resources.
-    
     
   - name: Temporary Assistance for Needy Families (TANF)
     link: https://www.benefits.gov/benefit/613
