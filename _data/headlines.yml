@@ -6,4 +6,9 @@
 #  This is a headline which is very long and may need to be carried over onto a
 #  a second or third line in this file, but in any case all lines of text should be
 #  indented two spaces from the delimiter "- >-" to display properly. Also, you'll
-#  want to remove the #'s for actual headlines - they prevent this example from being parsed.
+#  want to remove the #'s for actual headlines - they prevent this example from being parsed.  
+- >-
+  The Cloverleaf Food Bank would like to thank Berkshire Hathaway Home Services for conducting a food drive in March.  We received wonderful donations to distribute to our families.
+- >- 
+  In March we served 172 families and 668 individuals.  
+
