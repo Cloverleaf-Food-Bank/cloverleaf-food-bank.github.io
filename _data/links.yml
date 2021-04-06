@@ -1,3 +1,5 @@
+# Remember to keep the value of each item to one line. Carriage returns will not be parsed right and the commit will probably be rejected.
+
 participants:
   - name: Triumph of the Holy Cross Parish
     link: https://www.techscatholic.com
