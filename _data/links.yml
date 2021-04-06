@@ -96,3 +96,50 @@ govt-agencies:
     address:
     phone:
     description: It can be a significant challenge for families to afford reliable, quality child care. Child care subsidy makes it possible for low-income families to find reliable, quality child care near their home or work and provides financial assistance to help families afford it.
+    
+    
+  - name: Child Health Insurance Program (CHIP)
+    link: https://www.healthcare.gov/medicaid-chip/childrens-health-insurance-program/
+    address:
+    phone:
+    description: CHIP provides low-cost health coverage to children in families that earn too much money to qualify for Medicaid.
+    
+    
+  - name: Dollar Energy FUnd
+    link: https://www.dollarenergy.org/
+    address:
+    phone:
+    description: Dollar Energy Fund is a 501(c)(3) organization whose mission is to improve the quality of life for households experiencing hardships by providing utility assistance and other services that lead to self-sufficiency.
+    
+  - name: Free and Reduced School Breakfast and/or Lunch
+    link: https://www.education.pa.gov/Teachers%20-%20Administrators/Food-Nutrition/programs/Pages/National-School-Lunch-Program.aspx
+    address:
+    phone:
+    description: The National School Lunch Program (NSLP) serves nutritious meals to millions of children nationwide each school day.
+    
+  - name: Low Income Energy Assistance Program
+    link: https://www.welfareoffices.org/li/low-income-home-energy-assistance-program-liheap-pittsburgh
+    address:
+    phone:
+    description: The Low-Income Home Energy Assistance Program, also known as LIHEAP, helps low-income families pay their heating bills
+    
+  - name: Mecicard/Medicare
+    link: https://www.medicare.gov/your-medicare-costs/get-help-paying-costs/medicaid
+    address:
+    phone:
+    description: Medicaid is a joint federal and state program that helps with medical costs for some people with limited income and resources.
+    
+    
+  - name: Temporary Assistance for Needy Families (TANF)
+    link: https://www.benefits.gov/benefit/613
+    address:
+    phone:
+    description: The Temporary Assistance for Needy Families (TANF) program provides grant funds to states and
+    territories to provide families with financial assistance and related support services.    
+    
+
+
+    
+    
+    
+    
